@@ -219,14 +219,20 @@ button:hover{
 }
 
 .pageimage {
-   margin: 220px 120px;
+   margin: 220px 360px;
    background-color: grey;
    display: flex;
    flex-direction: column;
-   padding: 120px;
+   padding: 120px 0px;
    gap: 60px;
+   justify-content: center;
+   align-items: center;
 }
 
+.projectimage{
+   width: 50%;
+   height: 50%;
+}
 
 
 
