@@ -1,0 +1,234 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  background-color: #292929;
+  color: #F5F5F5;
+ }
+ 
+h1{
+font-weight: normal;
+ }
+ 
+ 
+ .introduction {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+      /*
+      left: 50%;
+      top: 50%;
+      transform:translate(-50%,-50%);
+       */
+
+    }
+       .introduction img{
+   object-fit: contain;
+}
+
+
+ .introduction h1{
+    font-size: 64px;
+    }
+ 
+ 
+     
+ .introduction img {
+  width: 400px;
+  height: 250px;
+ }   
+ 
+ 
+ .bibliography {
+  display: flex;
+  height: 80vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0px;
+  padding: 50px;
+      /*
+      left: 50%;
+      top: 50%;
+      transform:translate(-50%,-50%);
+       */
+  
+ }
+
+ .bio {
+   display: flex;
+   text-align: center;
+   box-shadow: 0 0 50px 50px  black;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+ }
+
+.bibliography h2{
+  width: 50%;
+}
+
+
+
+ .bibliography h1{
+  font-size: 64px;
+  width: 50%;
+ }
+
+ .projects h1{
+   font-size: 128px;
+ }
+ 
+.projects {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+   position: relative;
+   height: 100%;
+}
+
+.project {
+   font-size: 50px;
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   gap: 120px;
+   margin: 120px;
+   padding: 60px 60px;
+   border: 4px solid black;
+   border-radius: 50px;
+   opacity: 0;
+   position: absolute;   
+   box-shadow: 0 0 15px 15px black;
+   transition:opacity 0.5s ease;
+   pointer-events:none;
+
+}
+
+.project.active{
+   opacity: 1;
+   pointer-events:auto;
+}
+
+.Contacts {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Contacts h1{
+   font-size: 128px;
+}
+
+.Contacts h2{
+   border: 4px solid black;
+   padding: 8px;
+   border-radius: 50px;
+}
+
+.Contacts h1:hover{
+   color: #F76C5E;
+}
+
+a {
+     text-decoration: none;
+}
+
+.Awards {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   border: 4px solid black;
+   border-radius: 50px;
+   padding: 60px 60px;
+   gap: 250px;
+   justify-content: center;
+   color: black;
+   box-shadow: 0 0 60px 60px black;
+   margin: 120px;
+}
+
+.Awardtext{
+   display: flex;
+   flex-direction: column;
+}
+
+.Awards h1{
+   font-size: 150px;
+}
+
+.projectcontainer{
+   position:relative;
+   overflow:hidden;
+   height: 100vh;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 60px 60px;
+}
+
+body h1{
+   font-size: 120px;
+   text-align: center;
+
+}
+
+button {
+   font-size: 60px;
+   background-color: transparent;
+   color: #f8e8b4;
+}
+
+.controls{
+   display: flex; 
+   gap: 240px;
+   width: 80%;
+   justify-content: space-around;
+}
+
+button:hover{
+   color: #F76C5E;
+}
+
+.buttonpage {
+   position: absolute;
+   right: 1rem;
+   top: 1rem;
+}
+
+.pagedesc{
+   border: 1px solid black;
+   margin: 60px 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px;
+}
+.pagedesc p{
+   font-size: 40px;
+   width: 60%;
+}
+
+.pageimage {
+   margin: 220px 120px;
+   background-color: grey;
+   display: flex;
+   flex-direction: column;
+   padding: 120px;
+   gap: 60px;
+}
+
+
+
+
+
+ 
